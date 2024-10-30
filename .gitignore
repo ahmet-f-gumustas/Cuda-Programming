@@ -1,5 +1,8 @@
 # Prerequisites
 *.d
+build/
+.vscode/
+*.egg-info/
 
 # Object files
 *.o
