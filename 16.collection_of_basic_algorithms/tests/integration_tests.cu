@@ -30,5 +30,5 @@ void test_algorithm_pipeline() {
     assert(filtered_result.size() <= prefix_result.size());
     assert(final_result > 0);
     
-    std::cout << "✅ Algorithm pipeline test passed!" << std::endl;
+    std::cout << "Algorithm pipeline test passed!" << std::endl;
 }
