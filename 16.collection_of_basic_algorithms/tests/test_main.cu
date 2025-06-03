@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
     
     try {
         // Test all algorithms
-        std::cout << "\n🧪 Running algorithm tests...\n" << std::endl;
+        std::cout << "\n Running algorithm tests...\n" << std::endl;
         
         test_prefix_sum();
         test_reduce();
@@ -28,10 +28,10 @@ int main(int argc, char* argv[]) {
         test_merge_sort();
         test_convolution();
         
-        std::cout << "\n✅ All algorithm tests completed successfully!" << std::endl;
+        std::cout << "\n All algorithm tests completed successfully!" << std::endl;
         
     } catch (const std::exception& e) {
-        std::cerr << "❌ Test failed with exception: " << e.what() << std::endl;
+        std::cerr << "Test failed with exception: " << e.what() << std::endl;
         all_tests_passed = false;
     }
     
@@ -39,15 +39,15 @@ int main(int argc, char* argv[]) {
     print_performance_summary();
     
     // Additional tests
-    std::cout << "\n🚀 Running additional tests...\n" << std::endl;
+    std::cout << "\n Running additional tests...\n" << std::endl;
     test_memory_bandwidth();
     demonstrate_cuda_graphs();
     
     if (all_tests_passed) {
-        std::cout << "\n🎉 All tests PASSED! 🎉" << std::endl;
+        std::cout << "\n All tests PASSED! " << std::endl;
         return 0;
     } else {
-        std::cout << "\n💥 Some tests FAILED! 💥" << std::endl;
+        std::cout << "\n Some tests FAILED! " << std::endl;
         return 1;
     }
 }

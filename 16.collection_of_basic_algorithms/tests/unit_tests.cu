@@ -84,10 +84,10 @@ void run_unit_tests() {
     for (const auto& test : tests) {
         std::cout << "Running " << test.first << "... ";
         if (test.second()) {
-            std::cout << "✅ PASSED" << std::endl;
+            std::cout << " PASSED" << std::endl;
             passed++;
         } else {
-            std::cout << "❌ FAILED" << std::endl;
+            std::cout << " FAILED" << std::endl;
         }
     }
     
