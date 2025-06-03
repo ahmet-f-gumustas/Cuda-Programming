@@ -1188,8 +1188,8 @@ __global__ void compute_with_async_copy(float* input, float* output,
 
 ### 🏗️ Project Structure
 ```
-📁 Cuda-Programming/
-├── 📁 include/                 # Header files
+📁 16.Collection_Of_Basıc_Algorithms/
+├── 📁 include/                # Header files
 │   ├── 📄 common.h            # Common utilities and macros
 │   ├── 📄 algorithms.h        # Algorithm declarations
 │   └── 📄 performance.h       # Performance measurement tools
