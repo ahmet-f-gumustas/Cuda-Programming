@@ -1,4 +1,3 @@
-```markdown
 # CUDA MLP - GPU vs CPU Neural Network Training
 
 <div align="center">
