@@ -67,5 +67,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/red/git-projects/Cuda-Programming/17.encode_decode_pipeline_for_jetson_family"
 }
